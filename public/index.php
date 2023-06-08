@@ -1,6 +1,9 @@
 <?php
 
 
+new PDO("mysql:host=localhost;dbname=movie_db", "root", "");
+
+
 //Pour créer une variable on utilise un $ ensuite camelCase comme en JS.
 //Le typage est dynamique pour les variables sans possibilité de typer celle ci (contrairement à TS)
 $maVariable = "Bonjour";

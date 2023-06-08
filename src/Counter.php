@@ -7,7 +7,7 @@ class Counter {
     private int $count;
     private bool $canBeNegative;
 
-    public function __construct(int $paramCount = 0, bool $canBeNegative = true)
+    public function __construct(int $paramCount = 0, bool $canBeNegative = false)
     {
         $this->count = $paramCount;
         $this->canBeNegative = $canBeNegative;
